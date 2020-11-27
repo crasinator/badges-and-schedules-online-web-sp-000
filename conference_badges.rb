@@ -23,5 +23,11 @@ return roomarr
 end 
 
 def printer(attendees)
- batch_badge_creator(attendees).each {|ba|puts ba}
- assign_rooms(attendees).each {|room| puts
+  batch_badge_creator(attendees).each {|ba|puts ba}
+  assign_rooms(attendees).each {|room| puts room}
+end 
+ 
+ 
+ 
+ 
+ 
